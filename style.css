@@ -1,0 +1,138 @@
+body {
+    background-color: #282a36;
+}
+.grid-container {
+    grid-column-start: 3;
+    padding-left: 40%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-gap: 10px 10px; 
+
+   
+}
+.splitter {
+    grid-template-columns: auto auto auto;
+}
+.numberButton {
+ 
+    padding: 16px;
+    font-size: 30px;
+    background-color: #bbbbbb;
+}
+.operatorButton {
+    padding: 16px; border: 2px solid black;     
+    font-size: 30px;
+    background-color: #bd93f9;
+}
+.Button {
+    padding: 16px;
+    font-size: 30px;
+    background-color: #ffb86c;
+}
+button {
+    border: 2px black solid;
+    width: 110px;
+    height: 140px;
+    background-color: #282a36;
+    
+}
+.numberButton:hover {
+
+    background-color: #fc7474;
+}
+.operatorButton:hover {
+
+    background-color: #ccabfa;
+}
+.Button:hover {
+
+    background-color: #ffd4a6;
+}
+button:hover {
+
+    background-color: #282a36;
+    
+}
+
+
+.box {
+    
+
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+}
+
+input {
+    font-size: 80px;
+    height: 140px;
+    width: 432px; 
+    text-align: right;
+    background-color: #f8f8f2;
+}
+.grid-item-divided{
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 2;
+
+}
+.grid-item-times{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3;
+    
+}
+.grid-item-minus{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    
+}
+.grid-item-plus{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    
+}
+.grid-item1{  
+    grid-row-start: 4;
+}
+.grid-item2{
+    grid-row-start: 4;
+}
+.grid-item3{  
+    grid-row-start: 4;    
+}
+.grid-item4{
+    grid-row-start: 3;
+}
+.grid-item5{
+    grid-row-start: 3;
+}
+.grid-item6{
+    grid-row-start: 3;
+}
+.grid-item7{
+    grid-row-start: 2;
+}
+.grid-item8{
+    grid-row-start: 2;
+}
+.grid-item9{ 
+    grid-row-start: 2;
+}
+.grid-item0{
+    grid-row-start: 5;
+}
+.grid-item-clear{
+    grid-row-start: 5 ;
+    grid-column-start: 2 ;
+
+}
+.grid-item-equals{
+    grid-row-start: 5 ;
+
+}
