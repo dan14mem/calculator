@@ -4,7 +4,7 @@ This is a simple Calculator I made for the Odin Project. It uses JavaScript, CSS
 
 ## How To Use
   
-[Click here to access the Github Page](https://github.com/dan14mem/calculator).
+[Click here to access the Github Page](https://dan14mem.github.io/calculator/).
   
 Have you ever used a calculator before? Well it should operate the same way!
 
